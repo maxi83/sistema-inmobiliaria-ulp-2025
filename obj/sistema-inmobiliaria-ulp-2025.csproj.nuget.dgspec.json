@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj": {}
+    "C:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj": {
+    "C:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj",
+        "projectUniqueName": "C:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj",
         "projectName": "sistema-inmobiliaria-ulp-2025",
-        "projectPath": "c:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj",
+        "projectPath": "C:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\sistema-inmobiliaria-ulp-2025.csproj",
         "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\obj\\",
+        "outputPath": "C:\\Users\\Maxi\\Documents\\sistema-inmobiliaria-ulp-2025\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maxi\\AppData\\Roaming\\NuGet\\NuGet.Config"
