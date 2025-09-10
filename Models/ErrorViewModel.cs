@@ -7,6 +7,6 @@ identificadores únicos como clases, funciones y variables permitiendo que
 public class ErrorViewModel
 {
     public string? RequestId { get; set; }
-
+    
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
