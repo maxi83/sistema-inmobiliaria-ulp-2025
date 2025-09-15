@@ -1,10 +1,17 @@
- namespace sistema_inmobiliaria_ulp_2025.Models;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace sistema_inmobiliaria_ulp_2025.Models;
 
-public class Inquilino
+public class Inquilino : DatosPersonales
 {
-    private int InquilinoId;
-    
-    
- }
+    public Inquilino() { }
+
+    [Key]
+    public int InquilinoId { get; set; }
+
+    [InverseProperty("Inquilino")]
+    public virtual required List<Contrato>? Contratos { get; set; }
+
+}
 
  
