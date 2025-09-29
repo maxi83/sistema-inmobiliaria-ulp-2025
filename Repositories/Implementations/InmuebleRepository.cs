@@ -34,7 +34,7 @@ public class InmuebleRepository : IInmuebleRepository
         await _inmuebles.FindAsync(id);
 
     public async Task<Inmueble?> GetWithPropietarioAsync(int id) =>
-        await _inmuebles.Include(i => i.Propietario).FirstOrDefaultAsync(i => i.Id == id);
+        await _inmuebles.Include(i => i.Propietario).FirstOrDefaultAsync(i => i.InmuebleId == id);
 
     public async Task AddAsync(Inmueble inmueble) =>
         await _inmuebles.AddAsync(inmueble);
