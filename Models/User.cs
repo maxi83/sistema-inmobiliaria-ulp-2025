@@ -1,17 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Inmobiliaria.Models;
+namespace sistema_inmobiliaria_ulp_2025.Models;
 
 public class User
 {
     public User() { }
-
-    public User(string username, string password, string rol)
-    {
-        Username = username;
-        Password = password;
-        Rol = rol;
-    }
 
     [Key]
     public int UserId { get; set; }
