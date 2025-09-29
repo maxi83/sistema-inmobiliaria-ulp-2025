@@ -1,8 +1,25 @@
 
 using sistema_inmobiliaria_ulp_2025.Repositories.Interfaces;
 using sistema_inmobiliaria_ulp_2025.Repositories.Implementations;
+using sistema_inmobiliaria_ulp_2025.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<AppCntxt>(options =>
+    options
+        .UseLazyLoadingProxies(true)
+        .UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+
+builder
+    .Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Cuenta/IniciarSesion";
+        options.LogoutPath = "/Cuenta/CerrarSesion";
+        options.AccessDeniedPath = "/Cuenta/IniciarSesion";
+    });
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
