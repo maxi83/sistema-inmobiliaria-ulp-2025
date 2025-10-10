@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using sistema_inmobiliaria_ulp_2025.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace sistema_inmobiliaria_ulp_2025.Controllers;
+namespace Inmobiliaria.Controllers;
 
 public class HomeController : Controller
 {
@@ -26,6 +26,8 @@ public class HomeController : Controller
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View(
+            new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier }
+        );
     }
 }

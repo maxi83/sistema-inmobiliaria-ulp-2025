@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Detalles";
+    Layout = "_Layout";
+}
+
+<div>
+    <h4>@ViewData["Sector"]</h4>
+    <hr />
+    <dl class="row dl-horizontal">
+        @await RenderSectionAsync("Datos_dl", required: true)
+    </dl>
+</div>
+<div>
+    @await RenderSectionAsync("a_action_edit", required: true) |
+    <a asp-action="Index">Volver al listado</a>
+</div>

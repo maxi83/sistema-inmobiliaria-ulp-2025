@@ -5,8 +5,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 
-namespace sistema_inmobiliaria_ulp_2025.Models;
-
+namespace sistema_inmobiliaria_ulp_2025.Controllers;
 
 public class CuentaController : Controller
 {
@@ -36,7 +35,7 @@ public class CuentaController : Controller
     [HttpPost]
     public async Task<IActionResult> IniciarSesion([FromForm] User user)
     {
-        var usuarioEnDB = await _userRepository.GetByUsernameAsync(user.Username);
+        User? usuarioEnDB = await _userRepository.GetByUsernameAsync(user.Username);
 
         if (usuarioEnDB == null || !BCrypt.Net.BCrypt.Verify(user.Password, usuarioEnDB.Password))
         {

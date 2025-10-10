@@ -1,0 +1,22 @@
+@model User
+@{
+    Layout = "_Autenticacion";
+    ViewData["Title"] = "INICIAR SESIÓN";
+}
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @Html.ValidationSummary(false)
+    </div>
+}
+<form class="container-fluid d-flex flex-column justify-content-center align-items-center fw-bold"
+    asp-controller="Cuenta" asp-action="IniciarSesion" method="post">
+    <fieldset class="border border-primary rounded w-33 mb-3 px-3 shadow bg-secondary">
+        <legend class="text-center mt-3">INICIAR SESIÓN</legend>
+        <label for="username" class="my-3">Usuario</label>
+        <input placeholder="Usuario" class="form-control my-3" type="text" asp-for="Username" id="username">
+        <label for="password" class="my-3">Contraseña</label>
+        <input placeholder="Contraseña" class="form-control mb-3" type="password" asp-for="Password" id="password">
+    </fieldset>
+    <button type="submit" class="btn btn-success text-white">INICIAR SESIÓN</button>
+</form>

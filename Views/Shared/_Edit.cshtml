@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "_Layout";
+}
+
+<h4>@ViewData["Sector"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            @await RenderSectionAsync("errors_and_id", required: true)
+            @RenderBody()
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Volver al listado</a>
+</div>

@@ -8,7 +8,7 @@ public class Pago
     public Pago() { }
 
     [Key]
-    public int PagoId { get; set; }
+    public int Id { get; set; }
     public int NoPago { get; set; }
     public DateOnly Fecha { get; set; }
     public decimal Importe { get; set; }

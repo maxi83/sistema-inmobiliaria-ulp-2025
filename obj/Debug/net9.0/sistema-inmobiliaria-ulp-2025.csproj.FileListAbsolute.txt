@@ -126,8 +126,6 @@ C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compresse
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\d5wfqvffjd-muycvpuwrr.gz
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\1ptz62ee2u-87fc7y1x7t.gz
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\wfgvumuprp-mlv21k5csn.gz
-C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\dg2qhiph76-y0h1eag19i.gz
-C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\hokx0e2dm5-y0h1eag19i.gz
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\staticwebassets.development.json
@@ -138,3 +136,9 @@ C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\refint\si
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\sistema-inmobiliaria-ulp-2025.pdb
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\sistema-inmobiliaria-ulp-2025.genruntimeconfig.cache
 C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\ref\sistema-inmobiliaria-ulp-2025.dll
+C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\scopedcss\Views\Shared\_Autenticacion.cshtml.rz.scp.css
+C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\dg2qhiph76-iikr9z7yn8.gz
+C:\Users\Maxi\Documents\sistema-inmobiliaria-ulp-2025\obj\Debug\net9.0\compressed\hokx0e2dm5-iikr9z7yn8.gz

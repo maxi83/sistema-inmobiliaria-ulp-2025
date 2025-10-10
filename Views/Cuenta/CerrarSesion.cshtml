@@ -1,0 +1,19 @@
+@{
+    Layout = "_Autenticacion";
+    ViewData["Title"] = "CERRAR SESIÓN";
+}
+
+<form class="container-fluid d-flex p-2 justify-content-center align-items-center" asp-action="_CerrarSesion"
+    method="post">
+    <fieldset class="border border-danger rounded fw-bold px-2 shadow bg-secondary">
+        <legend class="text-center my-3">¿Deseas cerrar sesión?</legend>
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <button type="submit" class="btn btn-danger border border-white text-white mx-1">
+                CERRAR SESIÓN
+            </button>
+            <button asp-controller="Home" asp-action="Index" class="btn btn-dark border border-white text-white mx-1">
+                VOLVER ATRAS
+            </button>
+        </div>
+    </fieldset>
+</form>

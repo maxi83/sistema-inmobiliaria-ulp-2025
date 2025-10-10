@@ -7,7 +7,7 @@ public class Inmueble
 {
     public Inmueble() { }
     [Key]
-    public int InmuebleId { get; set; }
+    public int Id { get; set; }
     [ForeignKey("Propietario")]
     public int PropietarioId { get; set; }
     public virtual required Propietario? Propietario { get; set; }

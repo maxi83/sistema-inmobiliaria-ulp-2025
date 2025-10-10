@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Listado";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid d-flex justify-content-evenly align-items-center">
+    <a asp-action="Create" class="btn btn-secondary border border-white rounded fw-bold">
+        Crear nuevo
+    </a>
+    @await RenderSectionAsync("FormFiltros", required: false)
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            @await RenderSectionAsync("TableHeaders", required: true)
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @await RenderSectionAsync("TableBody", required: true)
+    </tbody>
+</table>

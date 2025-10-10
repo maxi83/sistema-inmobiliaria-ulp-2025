@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Inmobiliaria</title>
+    <link rel="preconnect" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script defer src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body data-bs-theme="dark" class="d-flex flex-column vh-100 justify-content-between align-items-center">
+    <header class="py-2 d-flex justify-content-center align-items-center">
+        <h1 class="m-0">INMOBILIARIA</h1>
+    </header>
+    <main class="d-flex p-2 justify-content-center align-items-center">
+        @RenderBody()
+    </main>
+    <footer class="py-2 d-flex justify-content-center align-items-center">
+        <span class="text-muted m-0">&copy;; - 2025 | INMOBILIARIA</span>
+    </footer>
+</body>
+
+</html>

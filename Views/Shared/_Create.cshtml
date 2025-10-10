@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "_Layout";
+}
+
+<h4>Nuevo @ViewData["Cabecera"]</h4>
+<hr class="bg-light h-2 w-25 shadow" />
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Create" class="border border-info d-flex flex-column p-2" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger w-100"></div>
+    @RenderBody()
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<div>
+    <a asp-action="Index" class="btn btn-danger border border-white mt-2">Volver a la lista</a>
+</div>

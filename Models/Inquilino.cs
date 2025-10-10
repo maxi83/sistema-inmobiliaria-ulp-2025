@@ -7,7 +7,7 @@ public class Inquilino : DatosPersonales
     public Inquilino() { }
 
     [Key]
-    public int InquilinoId { get; set; }
+    public int Id { get; set; }
 
     [InverseProperty("Inquilino")]
     public virtual required List<Contrato>? Contratos { get; set; }
